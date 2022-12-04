@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.logo {
+    width: 25%;
+    height: 25%;
+}
+.snorkel-blue {
+    background-color: #034F84;
+    box-shadow: 2px 2px 10px 2px #000;
+}
+.nav-list {
+    padding: 0px;
+    margin: 0px;
+}
+.links-nav {
+    margin-right: 20px;
+    list-style-type: none;
+    display: inline;
+    color: #eee;
+    font-weight: bolder;
+}
+.icon {
+    margin-top: 15px;
+}
+@media only screen and (max-width: 425px){
+    .logo {
+        width: 35%;
+    }
+    .navBar {
+        display: none;
+        height: 100px;
+    }
+	.links-nav {
+        display: block;
+    }
+    .max-height {
+        max-height: 200px;
+    }
+    .icon {
+        display: block;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    .bar-1, .bar-3 {
+        height: 2px;
+        width: 20px;
+        background-color: #eee;
+    }
+    .bar-2 {
+        background-color: #79C753;
+        margin-right: 3px;
+        width: 30px;
+        height: 3px;
+        margin: 10px 0px;
+    }
+    .fiesta-red {
+        background-color: #DD4132;
+    }
+    .black {
+        background-color: #000;
+    }
+    
+}
