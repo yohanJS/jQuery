@@ -27,7 +27,7 @@ body {
 }
 @media only screen and (max-width: 425px){
     .logo {
-        width: 35%;
+        width: 40%;
     }
     .navBar {
         display: none;
@@ -57,7 +57,7 @@ body {
         margin: 10px 0px;
     }
     .fiesta-red {
-        background-color: #DD4132;
+        color: #DD4132;
     }
     .black {
         background-color: #000;
