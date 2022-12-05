@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+html {
+    scroll-behavior: smooth;
+}
 body {
     box-sizing: border-box;
     font-family: "Roboto";
@@ -24,6 +27,7 @@ body {
 }
 .icon {
     margin-top: 15px;
+    display: none;
 }
 @media only screen and (max-width: 425px){
     .logo {
@@ -43,18 +47,6 @@ body {
         display: block;
         margin-bottom: 5px;
         padding: 5px;
-    }
-    .bar-1, .bar-3 {
-        height: 2px;
-        width: 20px;
-        background-color: #eee;
-    }
-    .bar-2 {
-        background-color: #79C753;
-        margin-right: 3px;
-        width: 30px;
-        height: 3px;
-        margin: 10px 0px;
     }
     .fiesta-red {
         color: #DD4132;
